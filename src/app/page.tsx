@@ -1,5 +1,5 @@
 'use client';
-import { Product } from '@/types';
+import { Product } from '../types/index';
 import { useCheckout } from '@/hooks/useCheckout';
 import ProductCard from '@/components/checkout/ProductCard';
 import QuantitySelector from '@/components/checkout/QuantitySelector';
