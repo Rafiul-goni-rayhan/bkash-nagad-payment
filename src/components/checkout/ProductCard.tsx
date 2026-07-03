@@ -1,6 +1,7 @@
 import React from 'react';
-import { Product } from '@/types';
+
 import Badge from '@/components/ui/badge/Badge';
+import { Product } from '@/types';
 
 export default function ProductCard({ product }: { product: Product }) {
   return (

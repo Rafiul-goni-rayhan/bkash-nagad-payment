@@ -1,7 +1,8 @@
+import { PaymentMethodType, Product } from '@/types';
 import { useState } from 'react';
 
 import { toast } from 'sonner';
-import { Product, PaymentMethodType } from '../types/index';
+
 
 export function useCheckout(product: Product) {
   const [quantity, setQuantity] = useState<number>(1);

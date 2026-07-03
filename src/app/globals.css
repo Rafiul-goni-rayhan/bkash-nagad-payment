@@ -9,7 +9,7 @@
   --border-subtle: #e2e8f0;  
   
   --brand-bkash: #e2136e;    
-  --brand-nagad: #475f3e;    
+  --brand-nagad: #9feb83;    
   --brand-primary: #6366f1;  
   
   --radius-custom: 1.25rem;   
@@ -31,3 +31,13 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Rafiul-goni-rayhan/bkash-nagad-payment.git
 git push -u origin main */
+
+/* 
+echo "# bkash-nagad-payment" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MS-Web-Solution/bkash-nagad-payment.git
+git push -u origin main 
+*/

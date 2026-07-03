@@ -1,6 +1,7 @@
 import React from 'react';
-import { PaymentMethodType } from '@/types';
+
 import Button from '../ui/button/Button';
+import { PaymentMethodType } from '@/types';
 
 interface PriceSummaryProps {
   totalPrice: number;

@@ -1,9 +1,10 @@
 import React from 'react';
-import { PaymentMethodType } from '@/types';
+
 import BaseModal from './BaseModal';
 import PhoneStep from './PhoneStep';
 import OtpStep from './OtpStep';
 import { toast } from 'sonner'; 
+import { PaymentMethodType } from '@/types';
 
 interface PaymentModalContainerProps {
   isOpen: boolean;

@@ -1,8 +1,8 @@
 import React from 'react';
-// import { PaymentMethodType } from '../../types/index';
-import { PaymentMethodType } from '../../types/index';
+
 import PaymentOptionButton from './PaymentOptionButton';
 import Label from '../ui/label/Label';
+import { PaymentMethodType } from '@/types';
 
 interface PaymentSelectorProps {
   selectedMethod: PaymentMethodType;
