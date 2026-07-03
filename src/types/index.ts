@@ -6,5 +6,4 @@ export interface Product {
   image: string;
 }
 
-// পেমেন্ট মেথডের জন্য টাইপ (বিকাশ, নগদ অথবা খালি)
 export type PaymentMethodType = 'bkash' | 'nagad' | null;
