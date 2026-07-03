@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #cadae9;      
+  --card-bg: #ecd2d2;
+  
+  --text-main: #0f172a;       
+  --text-muted: #475569;      
+  --border-subtle: #e2e8f0;  
+  
+  --brand-bkash: #e2136e;    
+  --brand-nagad: #475f3e;    
+  --brand-primary: #6366f1;  
+  
+  --radius-custom: 1.25rem;   
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-main);
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px; 
+}
+
+
+
+/* echo "# bkash-nagad-payment" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rafiul-goni-rayhan/bkash-nagad-payment.git
+git push -u origin main */
